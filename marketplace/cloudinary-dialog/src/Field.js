@@ -33,7 +33,7 @@ function Field({ sdk }) {
     const assets = await sdk.dialogs.openExtension({
       id: extension.id,
       width: 900,
-      title: 'Select images from Bynder',
+      title: 'Select images from Cloudinary',
       shouldCloseOnEscapePress: true,
       parameters: sdk.parameters.instance
     });
